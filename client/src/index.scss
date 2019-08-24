@@ -1,0 +1,36 @@
+@import "../src/vendor/normalize.scss";
+
+// fonts
+@import url('https://fonts.googleapis.com/css?family=Lexend+Deca|Roboto+Condensed:400,700&display=swap');
+
+@import "../src/Components/Home/Home.scss";
+@import "../src/Components/Drink/Drink.scss";
+@import "../src/Components/Home/Home.scss";
+@import "../src/Components/Login/Login.scss";
+@import "../src/Components/Navbar/Navbar.scss";
+@import "../src/Components/Order/Order.scss";
+@import "../src/Components/OrderProgress/OrderProgress.scss";
+@import "../src/Components/Cart/Cart.scss";
+@import "../src/Components/CartItem/CartItem.scss";
+@import "../src/Components/Menu/Menu.scss";
+@import "../src/Components/Option/Option.scss";
+@import "../src/Components/Queue/Queue.scss";
+@import "../src/Components/Task/Task.scss";
+@import "../src/Components/TaskItem/TaskItem.scss";
+@import "../src/Components/Lane/Lane.scss";
+
+html, body, body > div {
+    width: 100%;
+    height: 100%;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.app {
+    width: 100%;
+    height: 100%;
+
+    &__container {
+        display: flex;
+        height: 100%;
+    }
+}

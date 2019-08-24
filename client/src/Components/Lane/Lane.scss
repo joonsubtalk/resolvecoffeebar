@@ -1,0 +1,17 @@
+.lane {
+    font-size: 1rem;
+    &__container {
+        
+    }
+    &__title {
+        padding: .5em 0 0 .5em;
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: flex-start;
+        overflow: auto;
+        padding: .5em;
+        background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+        min-height: 5em;
+    }
+}

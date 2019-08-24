@@ -1,0 +1,40 @@
+.taskItem {
+    font-size: 1rem;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-bottom: .5em;
+    &__container {
+        position: relative;
+    }
+    &__color {
+        border-radius: 15px;
+        padding: 5px;
+        margin: 0 2px;
+    }
+    &__header {
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        max-width: 11em;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    &__quantity {
+        font-weight: bold;
+    }
+    &__name {
+        font-weight: bold;
+        font-size: 1.1em;
+    }
+    &__options {
+        display: flex;
+        justify-content: flex-start;
+        
+    }
+    &__option {
+        opacity: .7;
+        margin-right: 1em;
+        text-transform: capitalize;
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+}

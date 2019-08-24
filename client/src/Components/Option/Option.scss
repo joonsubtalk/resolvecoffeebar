@@ -1,0 +1,54 @@
+.option {
+    font-size: 1rem;
+    user-select: none;
+    border: none;
+    padding: 0;
+    margin-bottom: .5em;
+    outline: none;
+    background: none;
+
+    &__container {
+        background-color: #fff;
+        padding: 1em;
+        display: flex;
+        border-radius: 10px;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+    &__option{
+        width: 5em;
+        border: none;
+        padding: 1em;
+        background: none;
+    }
+    &__description {
+        opacity: .7;
+        font-size: .7em;
+        margin-bottom: 1em;
+    }
+    &__img {
+        width: 3em;
+    }
+    &__illustration {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 1em;
+    }
+    &__info {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+}
+
+.option--isActive {
+    .option {
+        &__container {
+            box-shadow: 0 6px 15px #b8b0ff, 1px -3px 14px #b7d2ec;
+        }
+    }
+}
